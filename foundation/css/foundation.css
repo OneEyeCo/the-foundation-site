@@ -710,6 +710,23 @@ kbd {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a; }
 
+  .hero-section {
+  background: url("donut-background.jpg") 50% content;
+  background-size: cover;
+  height: 10vh;
+  width: 200vh;
+  text-align: center;
+  display: -webkit-all;
+  display: -ms-flexbox;
+  display: all;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .subheader {
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
