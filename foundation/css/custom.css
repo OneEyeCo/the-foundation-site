@@ -1,16 +1,94 @@
 .navbar-list{font-family:fantasy;}
 
+.logo {
+	padding-left: 13px;
+	padding-right: 16px;
+	padding-bottom: 13px;
+	padding-top: 16px;
+}
+
+.navbar { 
+	padding-top: 14px;
+	padding-bottom:16px;
+	padding-left: 14px;
+	padding-right: 16px;
+}
+
+
+ul {
+	border: 1px solid #e7e7e7;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    overflow: hidden;
+    background-color: #f7e505;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: hotpink;
+  text-align: center;
+  padding: 14px 16px 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #f705b1;
+}
+
+.p-welcome {
+  display: block;
+  color: #f7e505;
+  text-align: center;
+  text-decoration: none;
+}
+
 
 h1{ font-family:Captain Redemption }
 
-h2{ font-size: medium;}
+h1 {
+	text-align: center;
+	color: blue;
+	font-size: 160;
+	font-weight: bold;
+}
 
-.p-welcome {
-	
+h2{ 
+	font-size: medium;
+	text-align: center;
+}
+
+h4 {
+	font-size: large;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 160;
+}
+
+h5{
+	font-size: large;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 160;
+}
+
+p {
+	font-size: large;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 160;
 }
 
 div {
-	text-align: center;
+	text-align: left;
 	color: #0f0f01;
 	font-size: 160;
 	font-family: Arial, Helvetica, sans-serif; 
@@ -18,3 +96,70 @@ div {
 
 }
 
+.img.animated-gif{
+  width: 120px;
+  height: 200px;
+}
+
+.locate-section{
+    text-align: left;
+	font-size: 160;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-weight: bold;
+}
+
+.parent{
+    position: relative;
+}
+.over-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 850px;
+}
+
+.text-block {
+  position: absolute;
+  background-color: hotpink;
+  height: 450px;
+}
+
+.a-href {
+  color: hotpink;
+  text-align: center;
+}
+
+body{
+	background-position: static;
+}
+
+.hero-section {
+  background: url("donut-background.jpg") 40% content;
+  background-size: cover;
+  height: 10vh;
+  width: 182vh;
+  text-align: center;
+  display: -webkit-all;
+  display: -ms-flexbox;
+  display: all;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  position: static;
+  padding-top: 10;
+  padding-left: 0;
+  padding-bottom: 10;
+  padding-right: 0;
+  width: 100%;
+  height: 80px;
+  color: blue;
+  background-color: hotpink;
+  text-align: center;
+}

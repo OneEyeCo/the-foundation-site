@@ -16,8 +16,10 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%; }
 
-body {
-  margin: 0; }
+ .html{
+  background: url(images/logo and branding/donuts-free-photo-1-2210x1473.jpg);
+
+ }
 
 h1 {
   font-size: 2em;
@@ -711,10 +713,10 @@ kbd {
   color: #0a0a0a; }
 
   .hero-section {
-  background: url("donut-background.jpg") 50% content;
+  background: url("donut-background.jpg") 40% content;
   background-size: cover;
   height: 10vh;
-  width: 200vh;
+  width: 182vh;
   text-align: center;
   display: -webkit-all;
   display: -ms-flexbox;
@@ -741,6 +743,18 @@ p {
     color: #F8BD05;
 } 
 
+footer {
+  position: static;
+  padding-top: 10;
+  padding-left: 0;
+  padding-bottom: 10;
+  padding-right: 0;
+  width: 100%;
+  height: 80px;
+  color: blue;
+  background-color: pink;
+  text-align: center;
+}
 
 .subheader {
   margin-top: 0.2rem;
