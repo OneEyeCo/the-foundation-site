@@ -63,6 +63,14 @@ h2{
 	text-align: center;
 }
 
+h3 {
+	font-size: large;
+	text-align: left;
+	font-weight: bold;
+	color: yellow;
+	font-size: 160;
+}
+
 h4 {
 	font-size: large;
 	text-align: center;
@@ -75,8 +83,14 @@ h5{
 	font-size: large;
 	text-align: center;
 	font-weight: bold;
-	color: #ffffff;
+	color: #000000;
 	font-size: 160;
+}
+
+.text-block {
+  position: absolute;
+  background-color: hotpink;
+  height: 450px;
 }
 
 p {
